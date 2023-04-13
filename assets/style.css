@@ -1,0 +1,98 @@
+body {
+    background: #f5f5f5;
+}
+img {
+    left: -30px;
+    position: absolute;
+}
+.search-input {
+    border-radius: 50px;
+    height: 56px;
+    border: 3px solid #123a70;
+    padding-bottom: 8px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.search-input::-webkit-calendar-picker-indicator {
+    opacity: 0.6;
+    position: relative;
+    top: -3px;
+}
+
+.search-input:focus::-webkit-calendar-picker-indicator {
+    opacity: 1;
+}
+
+.lsTool .tool {
+    text-decoration: none;
+}
+.navbar-brand{
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    zoom: 1.25;
+}
+.container-fluid{
+    transform: translateY(10px);
+}
+.right h6{
+    font-size:small; 
+    color: gray;opacity: 75%;
+}
+.right h4{
+    max-width: 240px;
+}
+
+.cont .menu__item {
+    list-style: none;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.menu__item a{
+    text-decoration: none;
+    color: aliceblue;
+    /* background-color: #123a70; */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 5rem!important;
+    --bs-dropdown-padding-y: 0!important;
+    --bs-dropdown-link-active-color: #ffffff!important;
+    --bs-dropdown-link-active-bg: #0e2a52!important;
+}
+/* a.dropdown-item {
+    border-radius: 10px;
+} */
+
+.all{
+    color: white;
+    display: flex;
+    right: 5px;
+    position: absolute;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.notification{
+    margin: 25px;
+}
+.help{
+    margin-top: 25px;
+}
+
+.login{
+    color: inherit;
+    background: #1c53a3;
+    color: white;
+    margin: 19px;
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.login:active{
+    background: white;
+    color:#1c53a3 ;
+}
+
